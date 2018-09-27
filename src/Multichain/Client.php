@@ -904,4 +904,9 @@ class Client
     {
         return $this->jsonRPCClient->execute("publishfrom", [$address, $stream, $key, bin2hex($hex)]);
     }
+
+    public function gettxoutdata($transaction, $dataRange, $hexa)
+    {
+        return $this->jsonRPCClient->execute("gettxoutdata", [$transaction, $dataRange, $hexa]);
+    }
 }
