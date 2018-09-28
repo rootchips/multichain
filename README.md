@@ -32,7 +32,8 @@ $multichain = new Client(
  ```
  
  ## Result
- ```{
+ ```
+ {
     "result": {
         "version": "1.0.5",
         "nodeversion": 10005901,
@@ -64,4 +65,5 @@ $multichain = new Client(
     },
     "error": null,
     "id": 1
-}```
+}
+```
