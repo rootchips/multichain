@@ -7,6 +7,10 @@ The recommended way to install this library through Composer. Run the Composer c
 
     composer require rootchips/multichain
 
+## Requirement
+```>= PHP 5.4```
+```Multichain 2.0```
+
 
 ## Setup
 
@@ -16,19 +20,19 @@ The recommended way to install this library through Composer. Run the Composer c
 use Chips\Multichain\Client;
 use Chips\Multchain\Helper;
 
-$multichain = new Client(
-    		sprintf('http://%s:%s', '127.0.0.1', 
-                    '4258'
-            ), // Blockchain host and port
-    		'multichainrpc', // Blockhain username
-    		'das858929had88yhfbw37ryw8yh3heyuhebhj', // Blockchain password
-    		3
-    	);
+$blockchain = new Client(
+                    sprintf(
+                    'http://%s:%s', '127.0.0.1', '4258'     // Blockchain host and port
+                    ),         
+                    'multichainrpc',                        // Blockchain username
+                    'das858929had88yhfbw37ryw8yh3heyuhebhj', // Blockchain password
+                    3
+    	      );
  ```
  
  ## Usage
  ```
- $multichain->setDebug(true)->getInfo()
+ $blockchain->setDebug(true)->getInfo()
  ```
  
  ## Result
