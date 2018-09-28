@@ -14,7 +14,7 @@ The recommended way to install this library through Composer. Run the Composer c
 
 ## Setup
 
-```
+```php
 <?php
 
 use Chips\Multichain\Client;
@@ -31,12 +31,12 @@ $blockchain = new Client(
  ```
  
  ## Usage
- ```
+ ```php
  $blockchain->setDebug(true)->getInfo()
  ```
  
  ## Result
- ```
+ ```json
  {
     "result": {
         "version": "1.0.5",
