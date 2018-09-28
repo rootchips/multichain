@@ -18,7 +18,6 @@ The recommended way to install this library through Composer. Run the Composer c
 <?php
 
 use Chips\Multichain\Client;
-use Chips\Multchain\Helper;
 
 $blockchain = new Client(
                     sprintf(
