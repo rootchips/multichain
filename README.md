@@ -37,7 +37,7 @@ $blockchain = new Client(
  ## Result
  ```json
 {
-    "result": "a92f7e9520df83999fca41f44f0e0434e9b802a54d2737b5ae548decbb49e321", // transaction id
+    "result": "a92f7e9520df83999fca41f44f0e0434e9b802a54d2737b5ae548decbb49e321",
     "error": null,
     "id": 1
 }
