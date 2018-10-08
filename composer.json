@@ -9,7 +9,6 @@
             "email": "roslansaidi@ymail.com"
         }
     ],
-    "type": "library",
     "require": {
 		"php": ">=5.4",
         "fguillot/json-rpc": "~v1.2.3"
